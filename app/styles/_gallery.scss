@@ -1,0 +1,29 @@
+.gallery{
+	background-color: #3e3e3e;
+	padding-bottom: 15px;
+	&__item{
+		background-color: #fff;
+		padding: 12px;
+		text-align: center;
+		margin-top: 15px;
+		max-width: 100%;
+		width: 100%;
+		overflow: hidden;
+		display: block;
+		p{
+			font-size: 24px;
+			color: #000;
+			font-weight: 400;
+			margin: 0;
+			padding-top: 10px;
+		}
+		a{
+			display: block;
+			outline: none;
+			img{
+				max-width: 100%;
+				width: 100%;
+			}
+		}
+	}
+}

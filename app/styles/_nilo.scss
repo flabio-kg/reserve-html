@@ -1,0 +1,215 @@
+.content{
+	&__kroshki{
+		padding-top: 40px;
+		ul{
+			margin: 0;
+			li{
+				list-style-type: none;
+				display: inline-block;
+				a{
+					font-size: 14px;
+					color: #6a6a6a;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+.nilo{
+	&__blog{
+		height: 1350px;
+		overflow: hidden;
+		@media (max-width: $screen-sm-max) {
+			height: 1560px;
+			overflow: auto;
+		}
+	}
+	&__text{
+		padding-left: 40px;
+		padding-bottom: 60px;
+		@media (max-width: $screen-md-max) {
+			padding-bottom: 20px;
+			padding-left: 20px;
+		}
+		.title{
+			font-size: 46px;
+			font-weight: 500;
+			color: #000;
+			@media (max-width: $screen-md-max) {
+				font-size: 35px;
+			}
+		}
+		p{
+			font-size: 24px;
+			font-weight: 300;
+			color: #000;
+			margin: 0;
+			line-height: 27px;
+			@media (max-width: $screen-md-max) {
+				font-size: 20px;
+			}
+		}
+	}
+	&__img{
+		max-width: 100%;
+		width: 100%;
+		min-height: 350px;
+		img{
+			height: 100%;
+		}
+	}
+	&__description{
+		padding-top: 50px;
+		padding-bottom: 256px;
+		padding-left: 40px;
+		background-color: rgba(65, 124, 133, 0.71);
+		@media (max-width: $screen-md-max) {
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		@media (max-width: $screen-sm-max) {
+			padding-bottom: 50px;
+		}
+		.descrip-title{
+			font-size: 46px;
+			font-weight: 500;
+			color: #fff;
+			margin: 0;
+			padding-bottom: 15px;
+			@media (max-width: $screen-md-max) {
+				font-size: 35px;
+				padding-bottom: 0;
+			}
+		}
+		.title-description{
+			font-size: 30px;
+			font-weight: 500;
+			color: #fff;
+			margin-bottom: 0;
+			@media (max-width: $screen-md-max) {
+				font-size: 25px;
+			}
+		}
+		p{
+			font-size: 24px;
+			font-weight: 300;
+			color: #000;
+			margin: 0;
+			line-height: 25px;
+			@media (max-width: $screen-md-max) {
+				font-size: 20px;
+			}
+		}
+	}
+	&__block{
+		background-color: #dddfdf;
+		padding-top: 95px;
+		@media (max-width: $screen-sm-max) {
+			padding-top: 50px;
+		}
+	}
+	&__item{
+		margin-bottom: 65px;
+		padding-left: 50px;
+		padding-right: 50px;
+		min-height: 250px;
+		a{
+			display: block;
+			height: 70px;
+			overflow-y: hidden;
+			i{
+				vertical-align: middle;
+				font-size: 50px;
+				color: #000;
+			}
+			.icon-car{
+				font-size: 40px;
+			}
+		}
+		.item-title{
+			margin: 0;
+			font-size: 30px;
+			color: #000;
+			font-weight: 500;
+		}
+		.item-ul{
+			padding-left: 0;
+			margin: 0;
+			li{
+				list-style-type: none;
+				display: block;
+				font-size: 24px;
+				color: #000;
+				font-weight: 300;
+			}
+		}
+	}
+	&__tour{
+		padding-top: 110px;
+		padding-bottom: 100px;
+		@media (max-width: $screen-sm-max) {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		.tour-title{
+			text-align: center;
+			font-size: 46px;
+			font-weight: 500;
+			color: #000;
+			margin: 0;
+			padding-bottom: 75px;
+			@media (max-width: $screen-sm-max) {
+				padding-top: 36px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+	&__link{
+		text-align: center;
+		max-width: 100%;
+		width: 100%;
+		border: 4px #13d7c9 solid;
+		margin-bottom: 20px;
+		.link-title{
+			font-size: 30px;
+			color: #000;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		.link-tit{
+			font-size: 32px;
+			font-weight: 300;
+			span{
+				color: #000;
+				font-weight: 500;
+			}
+		}
+		p{
+			font-size: 24px;
+			color: #000;
+			font-weight: 300;
+		}
+	}
+	&__wrapper {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 380px;
+  padding-top: 40px;
+  background-color: #fff;
+}
+&__div {
+  width: 3234px;
+  height: 325px;
+  a{
+    margin-right: 10px;
+      &:last-child{
+        margin-right: 0;
+      }
+    img{
+      max-width: 520px;
+      width: 100%;
+    }
+  }
+}
+}

@@ -1,0 +1,17 @@
+$icon-font-path: '../fonts/';
+
+@import "../fonts/icon/css/font.css";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "_helpers.scss";
+@import "_menu.scss";
+@import "_content.scss";
+@import "_nilo.scss";
+@import "_rybalka.scss";
+@import "_ohota.scss";
+@import "_turizm.scss";
+@import "_gallery.scss";

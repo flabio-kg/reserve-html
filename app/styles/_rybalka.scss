@@ -1,0 +1,107 @@
+.rybalka{
+	background-image: url('../images/rybalka.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 750px;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	&:before{
+		position: absolute;
+		background-color: #000;
+		opacity: .45;
+		left: 0;
+		right: 0;
+		height: 100%;
+	}
+	&__block{
+		position: relative;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		vertical-align: middle;
+		.rybalka-title{
+			color: #fff;
+			font-size: 76px;
+			font-weight: 400;
+			margin: 0;
+			text-transform: uppercase;
+			@media (max-width: $screen-sm-max) {
+				font-size: 56px;
+			}
+			@media (max-width: $screen-xs-max) {
+				font-size: 45px;
+			}
+		}
+		p{
+			font-size: 38px;
+			color: #fff;
+			margin: 0;
+			font-weight: 100;
+			line-height: 25px;
+			@media (max-width: $screen-sm-max) {
+				font-size: 28px;
+			}
+			@media (max-width: $screen-xs-max) {
+				font-size: 22px;
+			}
+		}
+		.rybalka-a{
+			display: block;
+			i{
+				color: #fff;
+				font-size: 130px;
+			}
+		}
+		.forms{
+			position: relative;
+			padding-left: 15px;
+			padding-right: 15px;
+			display: block;
+			margin: 0 auto;
+			max-width: 380px;
+			width: 100%;
+			&__input{
+				position: relative;
+				input{
+					display: block;
+					margin: 0 auto;
+					max-width: 350px;
+					width: 100%;
+					font-size: 25px;
+					height: 50px;
+					line-height: 50px;
+					margin-top: 20px;
+					outline: none;
+					padding-left: 60px;
+					border: 2px #fff solid;
+					color: #fff;
+					background-color: transparent;
+				}
+				i{
+					position: absolute;
+					color: #fff;
+					font-size: 30px;
+					left: 10px;
+					top: 5px;
+					display: block;
+				}
+			}
+			.-btn{
+				display: block;
+				margin: 0 auto;
+				max-width: 350px;
+				width: 100%;
+				font-size: 25px;
+				height: 50px;
+				line-height: 50px;
+				text-transform: uppercase;
+				color: #fff;
+				background-color: #000;
+				border: none;
+				outline: none;
+				margin-top: 20px;
+			}
+		}
+	}
+}

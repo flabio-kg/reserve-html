@@ -1,0 +1,18 @@
+.turizm{
+	background-image: url('../images/turizm.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 750px;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	&:before{
+		position: absolute;
+		background-color: #000;
+		opacity: .45;
+		left: 0;
+		right: 0;
+		height: 100%;
+	}
+}
