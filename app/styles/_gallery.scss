@@ -8,14 +8,17 @@
 		margin-top: 15px;
 		max-width: 100%;
 		width: 100%;
-		overflow: hidden;
 		display: block;
+		overflow: hidden;
 		p{
 			font-size: 24px;
 			color: #000;
 			font-weight: 400;
 			margin: 0;
 			padding-top: 10px;
+			@media (max-width: $screen-xs-min) {
+				font-size: 15px;
+			}
 		}
 		a{
 			display: block;

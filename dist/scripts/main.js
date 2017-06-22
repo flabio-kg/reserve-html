@@ -40,13 +40,242 @@ jQuery(document).ready(function ($) {
 		event.preventDefault();
 	});
 
-	$('.gallery__item').magnificPopup({
+	$('.gallery__item--items1').magnificPopup({
 		delegate: 'a',
 		type: 'image',
+		tClose: 'Закрыть (Esc)',
 		tLoading: 'Загрузка изображения #%curr%...',
 		gallery: {
 			enabled: true,
 			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items2').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items3').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items4').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items5').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items6').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items7').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items8').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items9').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items10').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items11').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items12').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items13').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items14').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items15').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
+			preload: [0, 1]
+		}
+	});
+
+	$('.gallery__item--items16').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tClose: 'Закрыть (Esc)',
+		tLoading: 'Загрузка изображения #%curr%...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});

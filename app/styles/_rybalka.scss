@@ -101,6 +101,12 @@
 				border: none;
 				outline: none;
 				margin-top: 20px;
+				border: 2px transparent solid;
+				transition: all .3s;
+				&:hover{
+					background-color: transparent;
+					border: 2px #fff solid;
+				}
 			}
 		}
 	}
