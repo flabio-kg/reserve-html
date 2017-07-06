@@ -15,11 +15,14 @@
 		right: 0;
 		height: 100%;
 	}
-	&__block{
+	&__flex{
+		display: flex;
+		height: 100%;
 		position: relative;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		vertical-align: middle;
+		top: 0;
+	}
+	&__block{
+		margin: auto;
 		.rybalka-title{
 			color: #fff;
 			font-size: 76px;
@@ -77,6 +80,9 @@
 					border: 2px #fff solid;
 					color: #fff;
 					background-color: transparent;
+				}
+				::-webkit-input-placeholder {
+					color: #fff;
 				}
 				i{
 					position: absolute;

@@ -1,63 +1,213 @@
 @font-face {
-  font-family: 'din';
-  src: url('../fonts/din-medium/din-medium.eot'),
-       url('../fonts/din-medium/din-medium.woff') format('woff'),
-       url('../fonts/din-medium/din-medium.ttf') format('truetype'),
-       url('../fonts/din-medium/din-medium.eot?#iefix') format('embedded-opentype');
-  font-weight: 500;
-  font-style: normal;
+	font-family: 'din';
+	src: url('../fonts/din-medium/din-medium.eot'),
+	url('../fonts/din-medium/din-medium.woff') format('woff'),
+	url('../fonts/din-medium/din-medium.ttf') format('truetype'),
+	url('../fonts/din-medium/din-medium.eot?#iefix') format('embedded-opentype');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'din';
-  src: url('../fonts/din-regular/din-regular.eot'),
-       url('../fonts/din-regular/din-regular.woff') format('woff'),
-       url('../fonts/din-regular/din-regular.ttf') format('truetype'),
-       url('../fonts/din-regular/din-regular.eot?#iefix') format('embedded-opentype');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'din';
+	src: url('../fonts/din-regular/din-regular.eot'),
+	url('../fonts/din-regular/din-regular.woff') format('woff'),
+	url('../fonts/din-regular/din-regular.ttf') format('truetype'),
+	url('../fonts/din-regular/din-regular.eot?#iefix') format('embedded-opentype');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'din';
-  src: url('../fonts/din-thin/din-thin.eot'),
-       url('../fonts/din-thin/din-thin.woff') format('woff'),
-       url('../fonts/din-thin/din-thin.ttf') format('truetype'),
-       url('../fonts/din-thin/din-thin.eot?#iefix') format('embedded-opentype');
-  font-weight: 100;
-  font-style: normal;
+	font-family: 'din';
+	src: url('../fonts/din-thin/din-thin.eot'),
+	url('../fonts/din-thin/din-thin.woff') format('woff'),
+	url('../fonts/din-thin/din-thin.ttf') format('truetype'),
+	url('../fonts/din-thin/din-thin.eot?#iefix') format('embedded-opentype');
+	font-weight: 100;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'din';
-  src: url('../fonts/din-light/din-light.eot'),
-       url('../fonts/din-light/din-light.woff') format('woff'),
-       url('../fonts/din-light/din-light.ttf') format('truetype'),
-       url('../fonts/din-light/din-light.eot?#iefix') format('embedded-opentype');
-  font-weight: 300;
-  font-style: normal;
+	font-family: 'din';
+	src: url('../fonts/din-light/din-light.eot'),
+	url('../fonts/din-light/din-light.woff') format('woff'),
+	url('../fonts/din-light/din-light.ttf') format('truetype'),
+	url('../fonts/din-light/din-light.eot?#iefix') format('embedded-opentype');
+	font-weight: 300;
+	font-style: normal;
 }
 
 html,
 body{
-  font-family: 'din';
-  background-color: #fff;
-  height: 100%;
+	font-family: 'din';
+	background-color: #fff;
+	height: 100%;
 }
 
 &:before,
 &:after{
-  content: '';
+	content: '';
 }
 
 .noPadding{
-  padding: 0 !important;
+	padding: 0 !important;
 }
 .noMargin{
-  margin: auto !important;
+	margin: auto !important;
 }
 
 .main-content{
-  height: 100vh;
-  min-height: 650px;
+	height: 100vh;
+	min-height: 650px;
 }
+
+.mcs-horizontal-example{
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.mcs-horizontal-example .item{
+	display: inline-block;
+}
+
+.loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.loader .loader_inner {
+	background-image: url('../images/preloader.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-posirion: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+// #prelaoder {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	background: rgba(10, 10, 10, 1);
+// 	z-index: 1000;
+// }
+
+// .spinner {
+// 	text-align: center;
+// 	font-size: 10px;
+// 	position: absolute;
+// 	top: 0;
+// 	bottom: 0;
+// 	right: 0;
+// 	left: 0;
+// 	border: 9px solid #fff;
+// 	border-color: transparent #fff;
+// 	margin: auto;
+// }
+
+// .spinner-inner {
+// 	position: absolute;
+// 	top: 0;
+// 	bottom: 0;
+// 	right: 0;
+// 	left: 0;
+// 	border: 9px solid #fff;
+// 	border-color: transparent #fff;
+// 	margin: auto;
+// }
+
+// .spinner {
+// 	width: 85px;
+// 	height: 85px;
+// 	-webkit-animation: spin 2.2s linear 0s infinite normal;
+// 	-moz-animation: spin 2.2s linear 0s infinite normal;
+// 	animation: spin 2.2s linear 0s infinite normal;
+// }
+
+// .spinner-inner {
+// 	width: 40px;
+// 	height: 40px;
+// 	-webkit-animation: spinback 1.2s linear 0s infinite normal;
+// 	-moz-animation: spinback 1.2s linear 0s infinite normal;
+// 	animation: spinback 1.2s linear 0s infinite normal;
+// }
+
+// @-webkit-keyframes spin {
+// 	from {
+// 		-webkit-transform: rotate(0);
+// 	}
+
+// 	to {
+// 		-webkit-transform: rotate(360deg);
+// 	}
+// }
+
+
+// @-moz-keyframes spin {
+// 	from {
+// 		-moz-transform: rotate(0);
+// 	}
+
+// 	to {
+// 		-moz-transform: rotate(360deg);
+// 	}
+// }
+
+
+// @keyframes spin {
+// 	from {
+// 		transform: rotate(0);
+// 	}
+
+// 	to {
+// 		transform: rotate(360deg);
+// 	}
+// }
+
+
+// @-webkit-keyframes spinback {
+// 	from {
+// 		-webkit-transform: rotate(0);
+// 	}
+
+// 	to {
+// 		-webkit-transform: rotate(-360deg);
+// 	}
+// }
+
+
+// @-moz-keyframes spinback {
+// 	from {
+// 		-moz-transform: rotate(0);
+// 	}
+
+// 	to {
+// 		-moz-transform: rotate(-360deg);
+// 	}
+// }
+
+
+// @keyframes spinback {
+// 	from {
+// 		transform: rotate(0);
+// 	}
+
+// 	to {
+// 		transform: rotate(-360deg);
+// 	}
+// }

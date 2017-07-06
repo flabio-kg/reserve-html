@@ -12,6 +12,7 @@
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="/bower_components/magnific-popup/dist/magnific-popup.css" />
+  <link rel="stylesheet" href="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -27,6 +28,10 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+
+      <div class="loader">
+        <div class="loader_inner"></div>
+      </div>
 
       <div class="menu">
 
@@ -224,16 +229,13 @@
                 </div>
               </div>
 
-              <div class="sliderr">
-                <div class="contant">
-                  <ul class="bb">
-                    <li class="li"><a href="#"><img src="images/nilo_2.jpg" alt=""></a></li>
-                    <li class="li"><a href="#"><img src="images/nilo_3.jpg" alt=""></a></li>
-                    <li class="li"><a href="#"><img src="images/nilo_4.jpg" alt=""></a></li>
-                    <li class="li"><a href="#"><img src="images/nilo_2.jpg" alt=""></a></li>
-                    <li class="li"><a href="#"><img src="images/nilo_3.jpg" alt=""></a></li>
-                  </ul>
-                </div>
+              <div class="mcs-horizontal-example">
+                <a href="#"><img src="images/nilo_2.jpg" class="item" alt=""></a>
+                <a href="#"><img src="images/nilo_3.jpg" class="item" alt=""></a>
+                <a href="#"><img src="images/nilo_4.jpg" class="item" alt=""></a>
+                <a href="#"><img src="images/nilo_2.jpg" class="item" alt=""></a>
+                <a href="#"><img src="images/nilo_3.jpg" class="item" alt=""></a>
+                <a href="#"><img src="images/nilo_4.jpg" class="item" alt=""></a>
               </div>
 
               <div class="nilo__tour">
@@ -241,27 +243,27 @@
                 <div class="row noMargin">
 
                   <div class="col-md-4">
-                    <div class="nilo__link">
+                    <a href="#" class="nilo__link">
                       <h3 class="link-title">ЗКАЗАТЬ тур</h3>
                       <h4 class="link-tit"><span>на 4 дней:</span>    70000 руб/чел.</h4>
                       <p>в базовой комплектации с питанием</p>
-                    </div>
+                    </a>
                   </div>
 
                   <div class="col-md-4">
-                    <div class="nilo__link">
+                    <a href="#" class="nilo__link">
                       <h3 class="link-title">Стоимость тура</h3>
                       <h4 class="link-tit"><span>на 5 дней:</span>    85000 руб/чел.</h4>
                       <p>в базовой комплектации с питанием</p>
-                    </div>
+                    </a>
                   </div>
 
                   <div class="col-md-4">
-                    <div class="nilo__link">
+                    <a href="#" class="nilo__link">
                       <h3 class="link-title">Стоимость тура</h3>
                       <h4 class="link-tit"><span>7 дней:</span>  110000 руб/чел.</h4>
                       <p>в базовой комплектации с питанием</p>
-                    </div>
+                    </a>
                   </div>
 
                 </div>
@@ -283,6 +285,9 @@
         <script src="/bower_components/modernizr/modernizr.js"></script>
         <script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
         <script src="/bower_components/matchHeight/dist/jquery.matchHeight.js"></script>
+        <script src="/bower_components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
+        <script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+        <script src="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 

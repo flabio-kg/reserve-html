@@ -1,4 +1,32 @@
-jQuery(document).ready(function($) {
+(function($){
+	$(window).on("load",function(){
+		$(".mcs-horizontal-example").mCustomScrollbar({
+			axis:"x",
+			theme:"dark-3"
+		});
+	});
+})(jQuery);
+
+$(document).ready(function() {
+
+	$(".loader_inner").fadeOut();
+	$(".loader").delay(700).fadeOut("slow");
+
+	// setTimeout(function() {
+	// 	$('.spinner').fadeOut("slow");
+
+	// 	setTimeout(function() {
+	// 		$('#prelaoder').fadeOut("slow"); 
+
+	// 		setTimeout(function() {
+	// 			$('.content-block').addClass('animated fadeInDown').fadeIn("slow");
+	// 			$('#footer').fadeIn('slow');
+
+	// 		}, 900);
+	// 	}, 700);
+	// }, 700);
+
+	$('#phone').mask('+7 (999) 999-99-99');
 
 	$(".nilo__item").matchHeight();
 	
@@ -48,8 +76,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -63,8 +91,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -78,8 +106,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -93,8 +121,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -108,8 +136,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -123,8 +151,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -138,8 +166,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -153,8 +181,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -168,8 +196,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -183,8 +211,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -198,8 +226,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -213,8 +241,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -228,8 +256,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -243,8 +271,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -258,8 +286,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});
@@ -273,8 +301,8 @@ jQuery(document).ready(function($) {
 			enabled: true,
 			navigateByImgClick: true,
 			tCounter: '<span class="mfp-counter">%curr% из %total%</span>',
-      tPrev: 'Назад',
-      tNext: 'Вперед',
+			tPrev: 'Назад',
+			tNext: 'Вперед',
 			preload: [0, 1]
 		}
 	});

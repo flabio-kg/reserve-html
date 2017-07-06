@@ -12,6 +12,7 @@
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="/bower_components/magnific-popup/dist/magnific-popup.css" />
+  <link rel="stylesheet" href="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -27,6 +28,10 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+
+      <div class="loader">
+        <div class="loader_inner"></div>
+      </div>
 
       <div class="menu">
 
@@ -64,21 +69,25 @@
 
           <div class="ohota">
 
-            <div class="rybalka__block">
-              <a href="#" class="rybalka-a"><i class="icon-olen"></i></a>
-              <h3 class="rybalka-title">ДИКАЯ ОХОТА</h3>
-              <p>подать заявку на участие</p>
-              <form action="" class="forms">
-                <div class="forms__input">
-                  <input type="text">
-                  <i class="icon-men"></i>
-                </div>
-                <div class="forms__input">
-                  <input type="text">
-                  <i class="icon-cell"></i>
-                </div>
-                <button class="-btn">Отправить</button>
-              </form>
+            <div class="rybalka__flex">
+              
+              <div class="rybalka__block">
+                <a href="#" class="rybalka-a"><i class="icon-olen"></i></a>
+                <h3 class="rybalka-title">ДИКАЯ ОХОТА</h3>
+                <p>подать заявку на участие</p>
+                <form action="" class="forms">
+                  <div class="forms__input">
+                    <input type="text" placeholder="Ваше имя">
+                    <i class="icon-men"></i>
+                  </div>
+                  <div class="forms__input">
+                    <input id="phone" type="text" name="phone" placeholder="+7 (___) ___-__-__">
+                    <i class="icon-cell"></i>
+                  </div>
+                  <button class="-btn">Отправить</button>
+                </form>
+              </div>
+
             </div>
 
           </div>
@@ -97,6 +106,9 @@
       <script src="/bower_components/modernizr/modernizr.js"></script>
       <script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
       <script src="/bower_components/matchHeight/dist/jquery.matchHeight.js"></script>
+      <script src="/bower_components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
+      <script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+      <script src="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
       <!-- endbower -->
       <!-- endbuild -->
 

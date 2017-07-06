@@ -12,6 +12,7 @@
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel="stylesheet" href="/bower_components/magnific-popup/dist/magnific-popup.css" />
+  <link rel="stylesheet" href="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -27,6 +28,17 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+
+      <!-- <div id="prelaoder">
+        <div class="spinner">
+          <div class="spinner-inner"></div>
+        </div>
+      </div> -->
+
+      <div class="loader">
+        <div class="loader_inner"></div>
+      </div>
+
       <div class="main-content">
         <div class="menu">
 
@@ -35,7 +47,7 @@
           </div>
 
           <ul class="ul">
-            <li><a href="#">Главная</a></li>
+            <li><a href="#" class="-active">Главная</a></li>
             <li><a href="#">Рыбалка</a>
               <ul class="under">
                 <li><a href="#">Маршруты</a></li>
@@ -67,13 +79,13 @@
         <div class="content">
 
           <div class="container-fluid noPadding height">
-            <a href="#" class="content__main">
-              <div class="content__blog">
+            <div class="content__main">
+              <a href="#" class="content__blog">
                 <h2 class="h2">Анюйская <br>остановка</h2>
                 <span>14.07.2017</span>
                 <p>191 км. в пути мы сделали крутую остановку отлично порыбачили, горы эмоций и рыбы.</p>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
 
           <div class="container-fluid noPadding hundred">
@@ -83,7 +95,7 @@
                   <a href="#" class="content__block">
                     <i class="icon-fish"></i>
                     <h3>РЫБАЛКА</h3>
-                    <p>маршруты для и рыбалки по горным рекам</p>
+                    <p>маршруты для рыбалки <br>по горным рекам</p>
                   </a>
                 </div>
               </div>
@@ -92,7 +104,7 @@
                   <a href="#" class="content__block">
                     <i class="icon-ytka"></i>
                     <h3>ОХОТА</h3>
-                    <p>охотьничьи маршруты по дикой тайге</p>
+                    <p>охотьничьи маршруты <br>по дикой тайге</p>
                   </a>
                 </div>
               </div>
@@ -111,6 +123,9 @@
       <script src="/bower_components/modernizr/modernizr.js"></script>
       <script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
       <script src="/bower_components/matchHeight/dist/jquery.matchHeight.js"></script>
+      <script src="/bower_components/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
+      <script src="/bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+      <script src="/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
       <!-- endbower -->
       <!-- endbuild -->
 
